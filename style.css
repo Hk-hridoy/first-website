@@ -1,43 +1,83 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    font-size: 20px;
-}
+    margin:0;
+    font-size: 20px;}
 
-h1 {
-    font-size: 60px;
-}
+h1 {font-size: 60px;}
+h2 {font-size: 50px;
+    color: black;}
+ 
 
-.sub-title {
-    font-size: 42px;
-}
+p {text-align: justify;
+    padding-right: 5%;
+    color: rgb(88, 87, 87);
+    }
 
-.name {
-    font-size: 36px;
-    padding-top: 25px;
-    color: #DC143C;
-}
-
-.name-color {
-    color: #C71585;
-}
-
-.half {
-    width: 35%;
-    padding-left: 2%;
-    float: left;
-    margin: 5%;
-}
-
-.half img {
-    width: 100%;
-}
-
-.top {
-    background-image: url(image/top-banner.png);
+.top {background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-}
+    padding-bottom: 5px;}
+      
 
-section {
-    height: 500px;
-}
+.half {width: 40%;
+       float: left;
+       margin: 0%;
+       padding-right: 10%;}  
+            
+ 
+.sub-title {font-size: 40px;}
+
+.name-color {color: #C71585;}
+
+.name {font-size: 36px;
+       color: #DC143C;}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(45, 209, 45), rgb(25, 117, 37));
+    color : white;
+    padding : 10px 20px ;
+    border-radius: 5px ;
+    font-weight : 700;}
+
+.half-img {width: 100%; 
+           margin: left 0;%;}
+
+section {height: 700px;    
+        padding-left: 5%;}
+
+.Responsibilities {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 5%;}
+
+.box {
+    box-shadow: 10px 10px 45px; 
+    color: gray;
+    padding: 2%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 60%;
+    }
+
+.experience {background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+    color: white; 
+    }
+
+#line-01 {
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, #cc33ff, #ff0066);
+    border-image-slice: 1;
+    border-start-end-radius: 10px;
+    }
+
+#line-02 {
+    border-left: 10px solid; 
+    border-image: linear-gradient(180deg, #ffff00, #00cc00);
+    border-image-slice: 1;
+    border-start-end-radius: 10px;}
+
+footer {font-size: 16px;}
+.copyright{text-align: right;}
